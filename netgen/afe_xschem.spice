@@ -1,0 +1,46 @@
+* NGSPICE file created from afe_xschem.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_GDJJ3U a_n35_n236# a_n93_n139# a_35_n139# w_n129_n239#
+X0 a_35_n139# a_n35_n236# a_n93_n139# w_n129_n239# sky130_fd_pr__pfet_01v8 ad=5.075e+11p pd=4.08e+06u as=5.075e+11p ps=4.08e+06u w=1.75e+06u l=350000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_RWVM3U a_n35_n272# a_n93_n175# a_35_n175# w_n129_n275#
+X0 a_35_n175# a_n35_n272# a_n93_n175# w_n129_n275# sky130_fd_pr__pfet_01v8 ad=5.075e+11p pd=4.08e+06u as=5.075e+11p ps=4.08e+06u w=1.75e+06u l=350000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_S4GQ7J a_20_n50# a_n20_n76# a_n78_n50# VSUBS
+X0 a_20_n50# a_n20_n76# a_n78_n50# VSUBS sky130_fd_pr__nfet_01v8 ad=1.45e+11p pd=1.58e+06u as=1.45e+11p ps=1.58e+06u w=500000u l=200000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_QY8CNP a_n29_n50# a_n127_n50# a_69_n50# a_n82_72#
++ VSUBS
+X0 a_69_n50# a_n82_72# a_n29_n50# VSUBS sky130_fd_pr__nfet_01v8 ad=1.45e+11p pd=1.58e+06u as=1.45e+11p ps=1.58e+06u w=500000u l=200000u
+X1 a_n29_n50# a_n82_72# a_n127_n50# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.45e+11p ps=1.58e+06u w=500000u l=200000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_79XL75 a_n35_n236# a_n93_n139# a_35_n139# w_n129_n239#
+X0 a_35_n139# a_n35_n236# a_n93_n139# w_n129_n239# sky130_fd_pr__pfet_01v8 ad=5.075e+11p pd=4.08e+06u as=5.075e+11p ps=4.08e+06u w=1.75e+06u l=350000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_Y6ED9L a_n29_n50# a_n127_n50# a_127_n50# a_n82_72#
++ VSUBS
+X0 a_127_n50# a_n82_72# a_n29_n50# VSUBS sky130_fd_pr__nfet_01v8 ad=1.45e+11p pd=1.58e+06u as=2.9e+11p ps=2.16e+06u w=500000u l=200000u
+X1 a_n29_n50# a_n82_72# a_n127_n50# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.45e+11p ps=1.58e+06u w=500000u l=200000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_75NWZG a_n33_n50# a_63_n50# a_n125_n50# a_n63_n76#
++ VSUBS
+X0 a_n33_n50# a_n63_n76# a_n125_n50# VSUBS sky130_fd_pr__nfet_01v8 ad=1.65e+11p pd=1.66e+06u as=1.55e+11p ps=1.62e+06u w=500000u l=150000u
+X1 a_63_n50# a_n63_n76# a_n33_n50# VSUBS sky130_fd_pr__nfet_01v8 ad=1.55e+11p pd=1.62e+06u as=0p ps=0u w=500000u l=150000u
+.ends
+
+.subckt afe_xschem In Out VDD GND
+XXM1 m1_763_102# VDD m1_763_102# w_669_566# sky130_fd_pr__pfet_01v8_GDJJ3U
+XXM2 a_829_n145# VDD a_829_n145# w_669_566# sky130_fd_pr__pfet_01v8_RWVM3U
+XXM3 m1_763_102# a_829_n145# GND GND sky130_fd_pr__nfet_01v8_S4GQ7J
+XXM4 a_829_n145# m1_687_n347# m1_687_n347# a_829_n145# GND sky130_fd_pr__nfet_01v8_QY8CNP
+XXM5 Out VDD Out w_669_566# sky130_fd_pr__pfet_01v8_79XL75
+XXM6 Out m1_687_n347# m1_687_n347# m1_763_102# GND sky130_fd_pr__nfet_01v8_Y6ED9L
+XXM7 m1_687_n347# GND GND In GND sky130_fd_pr__nfet_01v8_75NWZG
+.ends
+
