@@ -441,7 +441,380 @@
    <references>
    </references>
   </cell>
+  <cell>
+   <name>afe_xschem</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>r0 *1 1000,1000</trans>
+    </ref>
+   </references>
+  </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'via.1a_a'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (468.65,3211.02;466.08,3211.02)|(466.08,3211.16;468.65,3211.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (434.44,3256.93;434.44,3268)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (434.44,3268;442.46,3268)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (442.46,3256.93;434.44,3256.93)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (442.46,3268;442.46,3256.93)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (466.08,3211.16;468.65,3211.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (468.65,3211.02;466.08,3211.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-475.09,2255.9;-475.09,2266.97)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-475.09,2266.97;-467.07,2266.97)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-467.07,2266.97;-467.07,2255.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-467.07,2255.9;-475.09,2255.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.4'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (468.701,3211;466.029,3211)/(468.65,3211.02;466.08,3211.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (362.95,3268.16;362.95,3257.12)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (465.57,3204.64;465.57,3205.11)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (467.84,3211.63;466.85,3211.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (469.24,3205.11;469.24,3204.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (343.4,3268.16;362.95,3268.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (343.4,3257.12;343.4,3268.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (465.57,3205.11;469.24,3205.11)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (466.85,3211.63;466.85,3212.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (467.84,3212.47;467.84,3211.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (469.24,3204.64;465.57,3204.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (466.85,3212.47;467.84,3212.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (362.95,3257.12;343.4,3257.12)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-376.6,2268.58;-376.6,2257.54)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-376.6,2257.54;-396.15,2257.54)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-396.15,2257.54;-396.15,2268.58)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-636.06,2185.65;-616.51,2185.65)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-616.51,2185.65;-616.51,2174.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-616.51,2174.61;-636.06,2174.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-396.15,2268.58;-376.6,2268.58)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.1a_b'</category>
+   <cell>afe_xschem</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge: (-636.06,2174.61;-636.06,2185.65)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.4_a'</category>
+   <cell>user_analog_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (466.85,3211.63;466.85,3212.47;467.84,3212.47;467.84,3211.63)</value>
+   </values>
+  </item>
  </items>
 </report-database>
