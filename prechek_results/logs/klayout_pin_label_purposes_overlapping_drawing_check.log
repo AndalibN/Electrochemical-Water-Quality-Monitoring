@@ -1,4 +1,4 @@
-Running pin_label_purposes_overlapping_drawing.rb.drc on file=/home/andalib/caravel_user_project_analog/gds/user_analog_project_wrapper.gds, topcell=user_analog_project_wrapper, output to /home/andalib/caravel_user_project_analog/precheck_results/05_SEP_2022___15_07_00/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml
+Running pin_label_purposes_overlapping_drawing.rb.drc on file=/home/andalib/caravel_user_project_analog/gds/user_analog_project_wrapper.gds, topcell=user_analog_project_wrapper, output to /home/andalib/caravel_user_project_analog/precheck_results/10_SEP_2022___02_25_57/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml
   deep:true tiled:false threads:1
 --- #err|description, table for cell: user_analog_project_wrapper
 NO-Check ----        pwell:64/44/EMP   122/16/EMP    64/59/EMP    44/16/EMP     44/5/EMP
@@ -9,10 +9,10 @@ NO-Check ----        pwell:64/44/EMP   122/16/EMP    64/59/EMP    44/16/EMP     
          ----       licon1:66/44/dat    66/58/EMP
          ----          li1:67/20/dat    67/16/EMP     67/5/EMP
          ----         mcon:67/44/dat    67/48/EMP
-         ----         met1:68/20/dat    68/16/EMP     68/5/EMP
+         ----         met1:68/20/dat    68/16/dat     68/5/EMP
          ----          via:68/44/dat    68/58/EMP
          ----         met2:69/20/dat    69/16/dat     69/5/EMP
-         ----         via2:69/44/EMP    69/58/EMP
+         ----         via2:69/44/dat    69/58/EMP
          ----         met3:70/20/dat    70/16/dat     70/5/EMP
          ----         via3:70/44/EMP    70/48/EMP
          ----         met4:71/20/dat    71/16/dat     71/5/EMP
@@ -25,5 +25,5 @@ NO-Check ----        pwell:64/44/EMP   122/16/EMP    64/59/EMP    44/16/EMP     
          ----     inductor:82/24/EMP    82/25/EMP
        0 total error(s) among 0 error type(s), 33 checks, cell: user_analog_project_wrapper
 Writing report...
-VmPeak:	  746868 kB
-VmHWM:	  255552 kB
+VmPeak:	  746864 kB
+VmHWM:	  256024 kB

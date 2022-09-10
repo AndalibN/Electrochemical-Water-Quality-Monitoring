@@ -86,7 +86,7 @@ Layer names are:
     subcell
     connect
 No CIF/GDS output style set!
-I/O error in writing file /home/andalib/caravel_user_project_analog/precheck_results/05_SEP_2022___15_07_00/outputs/user_analog_project_wrapper_erased.gds.
+I/O error in writing file /home/andalib/caravel_user_project_analog/precheck_results/10_SEP_2022___02_25_57/outputs/user_analog_project_wrapper_erased.gds.
 File may be incompletely written.
 
 Magic 8.3 revision 315 - Compiled on Fri Sep  2 23:28:49 UTC 2022.
@@ -168,12 +168,12 @@ Layer names are:
     subcell
     connect
 No CIF/GDS output style set!
-I/O error in writing file /home/andalib/caravel_user_project_analog/precheck_results/05_SEP_2022___15_07_00/outputs/user_analog_project_wrapper_empty_erased.gds.
+I/O error in writing file /home/andalib/caravel_user_project_analog/precheck_results/10_SEP_2022___02_25_57/outputs/user_analog_project_wrapper_empty_erased.gds.
 File may be incompletely written.
-Reading /home/andalib/caravel_user_project_analog/precheck_results/05_SEP_2022___15_07_00/outputs/user_analog_project_wrapper_erased.gds ..
-ERROR: In /root/mpw_precheck/checks/xor_check/xor.rb.drc: 'source': Stream has unknown format: /home/andalib/caravel_user_project_analog/precheck_results/05_SEP_2022___15_07_00/outputs/user_analog_project_wrapper_erased.gds in Layout::read
-Total elapsed: 0.000s  Memory: 521.00M
-ERROR: 'source': Stream has unknown format: /home/andalib/caravel_user_project_analog/precheck_results/05_SEP_2022___15_07_00/outputs/user_analog_project_wrapper_erased.gds in Layout::read in Executable::execute
+Reading /home/andalib/caravel_user_project_analog/precheck_results/10_SEP_2022___02_25_57/outputs/user_analog_project_wrapper_erased.gds ..
+ERROR: In /root/mpw_precheck/checks/xor_check/xor.rb.drc: 'source': Stream has unknown format: /home/andalib/caravel_user_project_analog/precheck_results/10_SEP_2022___02_25_57/outputs/user_analog_project_wrapper_erased.gds in Layout::read
+Total elapsed: 0.010s  Memory: 521.00M
+ERROR: 'source': Stream has unknown format: /home/andalib/caravel_user_project_analog/precheck_results/10_SEP_2022___02_25_57/outputs/user_analog_project_wrapper_erased.gds in Layout::read in Executable::execute
   /root/mpw_precheck/checks/xor_check/xor.rb.drc:15:in `execute'
   :/built-in-macros/drc_interpreters.lym:27:in `instance_eval'
   :/built-in-macros/drc_interpreters.lym:27:in `execute'
