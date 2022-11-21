@@ -705,7 +705,7 @@ Xsky130_fd_pr__nfet_01v8_HHZLZ5_0 m1_2584_210# GND m1_3569_3347# GND sky130_fd_p
 XXM10 m1_2584_210# GND XM8/a_100_n1369# GND sky130_fd_pr__nfet_01v8_HHZLZ5
 .ends
 
-.subckt user_analog_project_wrapper_wo_PA gpio_analog[0] gpio_analog[10] gpio_analog[11]
+.subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
 + gpio_analog[12] gpio_analog[13] gpio_analog[14] gpio_analog[15] gpio_analog[16]
 + gpio_analog[17] gpio_analog[1] gpio_analog[2] gpio_analog[3] gpio_analog[4] gpio_analog[5]
 + gpio_analog[6] gpio_analog[7] gpio_analog[8] gpio_analog[9] gpio_noesd[0] gpio_noesd[10]
