@@ -1,0 +1,83 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1667443905
+<< nwell >>
+rect -323 -2898 323 2864
+<< pmos >>
+rect -229 -2836 -29 2764
+rect 29 -2836 229 2764
+<< pdiff >>
+rect -287 2752 -229 2764
+rect -287 -2824 -275 2752
+rect -241 -2824 -229 2752
+rect -287 -2836 -229 -2824
+rect -29 2752 29 2764
+rect -29 -2824 -17 2752
+rect 17 -2824 29 2752
+rect -29 -2836 29 -2824
+rect 229 2752 287 2764
+rect 229 -2824 241 2752
+rect 275 -2824 287 2752
+rect 229 -2836 287 -2824
+<< pdiffc >>
+rect -275 -2824 -241 2752
+rect -17 -2824 17 2752
+rect 241 -2824 275 2752
+<< poly >>
+rect -229 2845 -29 2861
+rect -229 2811 -213 2845
+rect -45 2811 -29 2845
+rect -229 2764 -29 2811
+rect 29 2845 229 2861
+rect 29 2811 45 2845
+rect 213 2811 229 2845
+rect 29 2764 229 2811
+rect -229 -2862 -29 -2836
+rect 29 -2862 229 -2836
+<< polycont >>
+rect -213 2811 -45 2845
+rect 45 2811 213 2845
+<< locali >>
+rect -229 2811 -213 2845
+rect -45 2811 -29 2845
+rect 29 2811 45 2845
+rect 213 2811 229 2845
+rect -275 2752 -241 2768
+rect -275 -2840 -241 -2824
+rect -17 2752 17 2768
+rect -17 -2840 17 -2824
+rect 241 2752 275 2768
+rect 241 -2840 275 -2824
+<< viali >>
+rect -213 2811 -45 2845
+rect 45 2811 213 2845
+rect -275 -2824 -241 2752
+rect -17 -2824 17 2752
+rect 241 -2824 275 2752
+<< metal1 >>
+rect -225 2845 -33 2851
+rect -225 2811 -213 2845
+rect -45 2811 -33 2845
+rect -225 2805 -33 2811
+rect 33 2845 225 2851
+rect 33 2811 45 2845
+rect 213 2811 225 2845
+rect 33 2805 225 2811
+rect -281 2752 -235 2764
+rect -281 -2824 -275 2752
+rect -241 -2824 -235 2752
+rect -281 -2836 -235 -2824
+rect -23 2752 23 2764
+rect -23 -2824 -17 2752
+rect 17 -2824 23 2752
+rect -23 -2836 23 -2824
+rect 235 2752 281 2764
+rect 235 -2824 241 2752
+rect 275 -2824 281 2752
+rect 235 -2836 281 -2824
+<< properties >>
+string gencell sky130_fd_pr__pfet_01v8
+string library sky130
+string parameters w 28 l 1 m 1 nf 2 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

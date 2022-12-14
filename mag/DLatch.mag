@@ -1,0 +1,60 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1667325005
+<< error_s >>
+rect 10482 7905 10544 7911
+rect 10482 7871 10494 7905
+rect 10482 7865 10544 7871
+rect 12977 7678 13039 7684
+rect 12977 7644 12989 7678
+rect 12977 7638 13039 7644
+rect 10544 4055 10606 4061
+rect 10544 4021 10556 4055
+rect 10544 4015 10606 4021
+rect 13110 3925 13172 3931
+rect 13110 3891 13122 3925
+rect 13110 3885 13172 3891
+<< poly >>
+rect -144 10550 396 10566
+rect -144 10516 -128 10550
+rect 380 10516 396 10550
+rect -144 10510 396 10516
+rect 4630 10510 5228 10566
+<< polycont >>
+rect -128 10516 380 10550
+<< locali >>
+rect -144 10516 -128 10550
+rect 380 10516 396 10550
+<< viali >>
+rect -128 10516 380 10550
+<< metal1 >>
+rect -140 10550 392 10556
+rect -140 10516 -128 10550
+rect 380 10516 392 10550
+rect -140 10510 392 10516
+use sky130_fd_pr__nfet_01v8_lvt_CXV4TW  XM10
+timestamp 1667324328
+transform 1 0 10639 0 1 2428
+box -157 -1648 157 1643
+use sky130_fd_pr__pfet_01v8_lvt_R3L7SV  XM11
+timestamp 1667322124
+transform 1 0 10705 0 1 6269
+box -321 -1655 321 1655
+use sky130_fd_pr__nfet_01v8_lvt_B6KGG2  sky130_fd_pr__nfet_01v8_lvt_B6KGG2_0
+timestamp 1667325005
+transform 1 0 2267 0 1 5528
+box -2469 -5038 2421 5038
+use sky130_fd_pr__nfet_01v8_lvt_B6KGG2  sky130_fd_pr__nfet_01v8_lvt_B6KGG2_1
+timestamp 1667325005
+transform 1 0 7099 0 1 5528
+box -2469 -5038 2421 5038
+use sky130_fd_pr__nfet_01v8_lvt_CXV4TW  sky130_fd_pr__nfet_01v8_lvt_CXV4TW_0
+timestamp 1667324328
+transform 1 0 13205 0 1 2298
+box -157 -1648 157 1643
+use sky130_fd_pr__pfet_01v8_lvt_R3L7SV  sky130_fd_pr__pfet_01v8_lvt_R3L7SV_0
+timestamp 1667322124
+transform 1 0 13200 0 1 6042
+box -321 -1655 321 1655
+<< end >>
