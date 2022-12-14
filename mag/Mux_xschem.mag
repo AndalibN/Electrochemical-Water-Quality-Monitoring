@@ -1,0 +1,40 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1666401077
+<< checkpaint >>
+rect -515 2886 2457 2939
+rect -515 2833 2856 2886
+rect -515 2627 3255 2833
+rect -1313 2362 3255 2627
+rect -1313 -713 3654 2362
+rect -914 -766 3654 -713
+rect -515 -819 3654 -766
+rect -116 -872 3654 -819
+rect 283 -925 3654 -872
+rect 682 -978 3654 -925
+use sky130_fd_pr__nfet_01v8_8LLWK3  XM1
+timestamp 0
+transform 1 0 173 0 1 957
+box -226 -410 226 410
+use sky130_fd_pr__nfet_01v8_8LLWK3  XM2
+timestamp 0
+transform 1 0 572 0 1 904
+box -226 -410 226 410
+use sky130_fd_pr__pfet_01v8_6QZ9WZ  XM3
+timestamp 0
+transform 1 0 971 0 1 1060
+box -226 -619 226 619
+use sky130_fd_pr__pfet_01v8_6QZ9WZ  XM4
+timestamp 0
+transform 1 0 1370 0 1 1007
+box -226 -619 226 619
+use sky130_fd_pr__pfet_01v8_6QZ9WZ  XM5
+timestamp 0
+transform 1 0 1769 0 1 954
+box -226 -619 226 619
+use sky130_fd_pr__nfet_01v8_8LLWK3  XM6
+timestamp 0
+transform 1 0 2168 0 1 692
+box -226 -410 226 410
+<< end >>

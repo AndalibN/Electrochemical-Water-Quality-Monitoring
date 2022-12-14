@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1666802528
+<< checkpaint >>
+rect -1313 -713 1669 2595
+rect -1260 -2460 1460 -713
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+use sky130_fd_pr__pfet_01v8_4NP7M4  X0
+timestamp 0
+transform 1 0 178 0 1 941
+box -231 -394 231 394
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 a_n35_n272#
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 a_n93_n175#
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 a_35_n175#
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 w_n129_n275#
+port 3 nsew
+<< end >>

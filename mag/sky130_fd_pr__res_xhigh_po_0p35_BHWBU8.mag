@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1666625676
+<< error_p >>
+rect -194 52 -124 196
+rect 124 52 194 196
+<< xpolycontact >>
+rect -194 584 -124 1016
+rect -194 52 -124 484
+rect 124 584 194 1016
+rect 124 52 194 484
+rect -194 -484 -124 -52
+rect -194 -1016 -124 -584
+rect 124 -484 194 -52
+rect 124 -1016 194 -584
+<< xpolyres >>
+rect -194 484 -124 584
+rect 124 484 194 584
+rect -194 -584 -124 -484
+rect 124 -584 194 -484
+<< viali >>
+rect -178 601 -140 998
+rect 140 601 178 998
+rect -178 70 -140 467
+rect 140 70 178 467
+rect -178 -467 -140 -70
+rect 140 -467 178 -70
+rect -178 -998 -140 -601
+rect 140 -998 178 -601
+<< metal1 >>
+rect -184 998 -134 1010
+rect -184 601 -178 998
+rect -140 601 -134 998
+rect -184 589 -134 601
+rect 134 998 184 1010
+rect 134 601 140 998
+rect 178 601 184 998
+rect 134 589 184 601
+rect -184 467 -134 479
+rect -184 70 -178 467
+rect -140 70 -134 467
+rect -184 58 -134 70
+rect 134 467 184 479
+rect 134 70 140 467
+rect 178 70 184 467
+rect 134 58 184 70
+rect -184 -70 -134 -58
+rect -184 -467 -178 -70
+rect -140 -467 -134 -70
+rect -184 -479 -134 -467
+rect 134 -70 184 -58
+rect 134 -467 140 -70
+rect 178 -467 184 -70
+rect 134 -479 184 -467
+rect -184 -601 -134 -589
+rect -184 -998 -178 -601
+rect -140 -998 -134 -601
+rect -184 -1010 -134 -998
+rect 134 -601 184 -589
+rect 134 -998 140 -601
+rect 178 -998 184 -601
+rect 134 -1010 184 -998
+<< res0p35 >>
+rect -196 482 -122 586
+rect 122 482 196 586
+rect -196 -586 -122 -482
+rect 122 -586 196 -482
+<< properties >>
+string gencell sky130_fd_pr__res_xhigh_po_0p35
+string library sky130
+string parameters w 0.350 l 0.5 m 2 nx 2 wmin 0.350 lmin 0.50 rho 2000 val 3.932k dummy 0 dw 0.0 term 188.2 sterm 0.0 caplen 0 wmax 0.350 guard 0 glc 0 grc 0 gtc 0 gbc 0 compatible {sky130_fd_pr__res_xhigh_po_0p35  sky130_fd_pr__res_xhigh_po_0p69 sky130_fd_pr__res_xhigh_po_1p41  sky130_fd_pr__res_xhigh_po_2p85 sky130_fd_pr__res_xhigh_po_5p73} full_metal 0 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>
