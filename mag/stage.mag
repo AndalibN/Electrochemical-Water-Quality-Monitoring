@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1669661075
+<< nwell >>
+rect 0 762 368 764
+rect 0 724 602 762
+rect 90 0 94 2
+rect 0 -38 602 0
+<< poly >>
+rect 94 688 154 742
+rect 330 688 508 726
+rect 94 4 272 36
+rect 342 -108 372 50
+rect 260 -130 372 -108
+rect 260 -174 292 -130
+rect 334 -174 372 -130
+rect 260 -192 372 -174
+rect 270 -1168 382 -1146
+rect 270 -1212 302 -1168
+rect 344 -1212 382 -1168
+rect 270 -1230 382 -1212
+rect 344 -1330 376 -1230
+<< polycont >>
+rect 292 -174 334 -130
+rect 302 -1212 344 -1168
+<< locali >>
+rect 270 -130 358 -108
+rect 270 -174 292 -130
+rect 336 -174 358 -130
+rect 270 -194 358 -174
+rect 280 -1168 368 -1146
+rect 280 -1212 302 -1168
+rect 346 -1212 368 -1168
+rect 280 -1232 368 -1212
+<< viali >>
+rect 292 -174 334 -130
+rect 334 -174 336 -130
+rect 302 -1212 344 -1168
+rect 344 -1212 346 -1168
+<< metal1 >>
+rect 404 78 408 80
+rect 404 72 432 78
+rect 438 72 444 74
+rect 260 -130 372 -108
+rect 260 -174 292 -130
+rect 336 -174 372 -130
+rect 260 -188 372 -174
+rect 274 -192 372 -188
+rect 342 -1146 372 -192
+rect 270 -1168 382 -1146
+rect 270 -1212 302 -1168
+rect 346 -1212 382 -1168
+rect 270 -1226 382 -1212
+rect 284 -1230 364 -1226
+rect 416 -1354 444 72
+use sky130_fd_pr__nfet_01v8_M8KAMF  sky130_fd_pr__nfet_01v8_M8KAMF_0
+timestamp 1669522153
+transform 1 0 246 0 1 -1650
+box -114 -326 114 326
+use sky130_fd_pr__nfet_01v8_N56T4C  sky130_fd_pr__nfet_01v8_N56T4C_0
+timestamp 1669522153
+transform 1 0 364 0 1 -1650
+box -114 -326 114 326
+use sky130_fd_pr__pfet_01v8_EKD6RN  sky130_fd_pr__pfet_01v8_EKD6RN_0
+timestamp 1669522153
+transform 1 0 419 0 1 362
+box -183 -362 183 362
+use sky130_fd_pr__pfet_01v8_EKD6RN  sky130_fd_pr__pfet_01v8_EKD6RN_1
+timestamp 1669522153
+transform 1 0 183 0 1 362
+box -183 -362 183 362
+<< end >>

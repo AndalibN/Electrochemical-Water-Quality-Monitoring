@@ -1,0 +1,77 @@
+magic
+tech sky130A
+timestamp 1669661075
+<< error_s >>
+rect 517 457 691 463
+rect 957 440 1129 450
+rect 517 420 691 431
+rect 1588 415 1647 429
+rect 957 407 1129 414
+rect 1771 411 1868 424
+rect 1395 389 1533 402
+rect 1880 383 1982 397
+<< poly >>
+rect 63 505 88 542
+rect 36 491 88 505
+rect 36 465 49 491
+rect 76 465 88 491
+rect 36 453 88 465
+<< polycont >>
+rect 49 465 76 491
+<< locali >>
+rect 40 493 82 499
+rect 40 464 46 493
+rect 78 464 82 493
+rect 40 457 82 464
+<< viali >>
+rect 46 491 78 493
+rect 46 465 49 491
+rect 49 465 76 491
+rect 76 465 78 491
+rect 46 464 78 465
+<< metal1 >>
+rect 38 493 86 503
+rect 38 464 46 493
+rect 78 481 86 493
+rect 101 481 116 553
+rect 78 467 116 481
+rect 78 464 86 467
+rect 38 456 86 464
+rect 101 328 116 467
+rect 511 449 691 457
+rect 951 436 1129 440
+rect 511 417 691 420
+rect 1588 415 1647 419
+rect 1767 410 1868 411
+rect 951 400 1129 407
+rect 1389 388 1533 389
+rect 1880 383 1982 384
+use inv  inv_0
+timestamp 1669661075
+transform 1 0 1609 0 1 457
+box 0 -1128 183 415
+use inv  inv_1
+timestamp 1669661075
+transform 1 0 1944 0 1 453
+box 0 -1128 183 415
+use sky130_fd_pr__nfet_01v8_7R257D  sky130_fd_pr__nfet_01v8_7R257D_0
+timestamp 1669522153
+transform 1 0 79 0 1 239
+box -57 -103 57 103
+use sky130_fd_pr__pfet_01v8_GRHA7T  sky130_fd_pr__pfet_01v8_GRHA7T_0
+timestamp 1669522153
+transform 1 0 79 0 1 673
+box -62 -151 62 151
+use stage  stage_0
+timestamp 1669661075
+transform 1 0 295 0 1 499
+box 0 -988 301 382
+use stage  stage_1
+timestamp 1669661075
+transform 1 0 735 0 1 486
+box 0 -988 301 382
+use stage  stage_2
+timestamp 1669661075
+transform 1 0 1173 0 1 469
+box 0 -988 301 382
+<< end >>
