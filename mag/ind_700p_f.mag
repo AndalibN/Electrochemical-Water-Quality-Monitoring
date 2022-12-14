@@ -1,0 +1,8 @@
+magic
+tech sky130A
+timestamp 1668207991
+use ind700p_1  ind700p_1_0
+timestamp 1667951165
+transform 1 0 8650 0 1 4000
+box -8650 -4000 7350 4000
+<< end >>

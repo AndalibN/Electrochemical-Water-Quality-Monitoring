@@ -1,0 +1,16 @@
+magic
+tech sky130A
+timestamp 1667926301
+use sky130_fd_pr__rf_test_coil1  sky130_fd_pr__rf_test_coil1_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
+timestamp 1653785680
+transform 1 0 7504 0 1 7229
+box -7252 -7252 7750 7252
+use sky130_fd_pr__rf_test_coil2  sky130_fd_pr__rf_test_coil2_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
+timestamp 1653785680
+transform 1 0 28808 0 1 13235
+box -13250 -13250 13750 13250
+use sky130_fd_pr__rf_test_coil3  sky130_fd_pr__rf_test_coil3_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
+timestamp 1653785680
+transform 1 0 61163 0 1 18231
+box -18254 -18254 18754 18254
+<< end >>

@@ -1,0 +1,44 @@
+magic
+tech sky130A
+timestamp 1668127496
+<< metal4 >>
+rect 3810 -11708 4717 -10378
+<< metal5 >>
+rect -5960 14221 1283 16035
+rect -3252 5707 -2303 10626
+rect 1489 5958 3304 10727
+rect -3252 5643 -2298 5707
+rect -3252 4838 -3139 5643
+rect -2404 4838 -2298 5643
+rect -3252 4780 -2298 4838
+rect -3209 3412 -2298 4780
+rect 1371 5131 3304 5958
+rect 1371 -1214 2694 5131
+rect 1191 -1397 2694 -1214
+rect 1191 -5157 2183 -1397
+rect 1254 -6137 2177 -5157
+rect 1254 -7285 4482 -6137
+rect 1299 -7330 4482 -7285
+<< mrdlcontact >>
+rect -3139 4838 -2404 5643
+use ind1p2n  ind1p2n_0
+timestamp 1667951165
+transform 1 0 23799 0 1 269
+box -19600 -18750 -1900 -1250
+use ind2p69  ind2p69_0
+timestamp 1667951165
+transform 1 0 26600 0 1 22500
+box -26600 -22500 2700 2500
+use ind2p69  ind2p69_1
+timestamp 1667951165
+transform -1 0 -29242 0 -1 2419
+box -26600 -22500 2700 2500
+<< labels >>
+rlabel metal4 3814 -11488 4293 -10611 1 C
+port 1 n
+rlabel metal5 -3169 3472 -2353 4060 1 D
+port 2 n
+<< properties >>
+string LEFview true
+string device primitive
+<< end >>

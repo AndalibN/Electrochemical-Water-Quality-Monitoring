@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1668032717
+<< psubdiff >>
+rect -796 2900 -366 3020
+rect -796 1938 -730 2900
+rect -450 1938 -366 2900
+rect -796 1844 -366 1938
+<< psubdiffcont >>
+rect -730 1938 -450 2900
+<< locali >>
+rect -758 2900 -412 2946
+rect -758 1938 -730 2900
+rect -450 1938 -412 2900
+rect -758 1882 -412 1938
+use sky130_fd_pr__res_xhigh_po_0p35_YTZT7B  sky130_fd_pr__res_xhigh_po_0p35_YTZT7B_0
+timestamp 1668032717
+transform 1 0 37 0 1 2889
+box -37 -2889 37 2889
+<< end >>

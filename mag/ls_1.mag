@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1668206367
+<< metal4 >>
+rect -3652 -12006 -1110 -8826
+<< metal5 >>
+rect -3566 -12879 -367 -12834
+rect 2009 -12879 2606 -12876
+rect -3566 -12880 0 -12879
+rect 858 -12880 2606 -12879
+rect -3566 -13620 2606 -12880
+rect -3566 -13622 -367 -13620
+use ind700p_1  ind700p_1_0 /research/mlab/chipathon/magic_design_files
+timestamp 1667951165
+transform -1 0 -20110 0 -1 -11320
+box -17300 -8000 14700 8000
+<< labels >>
+rlabel metal4 -2554 -11370 -1110 -9578 1 A
+port 1 n
+rlabel metal5 2092 -13550 2594 -12996 1 B
+port 2 n
+<< properties >>
+string LEFview true
+string device primitive
+<< end >>

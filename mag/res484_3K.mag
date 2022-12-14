@@ -1,0 +1,23 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1667399187
+<< psubdiff >>
+rect -654 3184 -226 3304
+rect -654 2014 -546 3184
+rect -342 2014 -226 3184
+rect -654 1882 -226 2014
+<< psubdiffcont >>
+rect -546 2014 -342 3184
+<< locali >>
+rect -594 3184 -286 3242
+rect -594 2014 -546 3184
+rect -342 2014 -286 3184
+rect -594 1956 -286 2014
+use sky130_fd_pr__res_xhigh_po_0p35_3MHUAY  sky130_fd_pr__res_xhigh_po_0p35_3MHUAY_0
+timestamp 1667399187
+transform 1 0 37 0 1 2382
+box -37 -2382 37 2382
+<< labels >>
+rlabel psubdiffcont -456 2472 -456 2472 7 gnd
+<< end >>
