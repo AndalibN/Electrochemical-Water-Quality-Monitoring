@@ -1,0 +1,41 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1668717350
+use BGR1  BGR1_0
+timestamp 1668036336
+transform 1 0 2124 0 1 5218
+box -2124 -5218 15700 8698
+use PA_L  PA_L_0
+timestamp 1668384124
+transform 1 0 13039 0 1 -43490
+box -8995 -1402 17125 32751
+use VCO  VCO_0
+timestamp 1668283304
+transform 1 0 64746 0 1 2208
+box -808 -1370 2776 990
+use biasAmp  biasAmp_0
+timestamp 1667755961
+transform 1 0 34570 0 1 -2462
+box -9186 3174 -3540 9318
+use filter_op_amp  filter_op_amp_0
+timestamp 1668324311
+transform 1 0 53307 0 1 -37424
+box -7117 -3040 5267 2367
+use lna_bk4  lna_bk4_0
+timestamp 1668715771
+transform 1 0 319204 0 1 -56249
+box -28856 -29561 65696 64408
+use mixer_layout  mixer_layout_0
+timestamp 1667850302
+transform 1 0 83410 0 1 -40248
+box -2746 -898 13715 7860
+use rldofull  rldofull_0
+timestamp 1668133889
+transform 1 0 108412 0 1 1352
+box 4412 -1856 42026 15135
+use tia  tia_0
+timestamp 1667970730
+transform 1 0 40248 0 1 2193
+box -1768 -963 18237 8579
+<< end >>

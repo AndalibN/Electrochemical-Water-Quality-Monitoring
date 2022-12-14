@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1668228285
+<< error_p >>
+rect -130 0 -70 900
+rect -50 0 10 900
+rect 758 760 781 761
+rect 818 760 861 841
+rect 865 800 896 816
+rect 880 101 896 800
+rect 865 100 896 101
+rect 935 28 945 872
+rect -130 -1000 -70 -100
+rect -50 -1000 10 -100
+rect 865 -200 896 -184
+rect 758 -861 781 -860
+rect 818 -941 861 -860
+rect 880 -899 896 -200
+rect 865 -900 896 -899
+rect 935 -972 945 -128
+use sky130_fd_pr__cap_mim_m3_1_5VWMAB  sky130_fd_pr__cap_mim_m3_1_5VWMAB_0
+timestamp 1668228285
+transform 1 0 -60 0 1 -50
+box -1009 -1000 1138 1000
+<< end >>
