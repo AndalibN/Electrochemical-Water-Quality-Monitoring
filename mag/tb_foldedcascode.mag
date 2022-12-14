@@ -1,0 +1,15 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1664212488
+<< checkpaint >>
+rect -1260 -660 8981 11627
+use foldedcascode  X1
+timestamp 1664212488
+transform 1 0 53 0 1 3800
+box 0 -3200 7373 3558
+use foldedcascode  foldedcascode_0
+timestamp 1664212488
+transform 1 0 0 0 1 3800
+box 0 -3200 7373 3558
+<< end >>
