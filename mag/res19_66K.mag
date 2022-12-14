@@ -1,0 +1,30 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1669522153
+<< pwell >>
+rect -468 74 -71 799
+<< psubdiff >>
+rect -442 725 -97 773
+rect -442 147 -423 725
+rect -117 147 -97 725
+rect -442 100 -97 147
+<< psubdiffcont >>
+rect -423 147 -117 725
+<< locali >>
+rect -442 725 -97 765
+rect -442 147 -423 725
+rect -117 147 -97 725
+rect 320 532 708 964
+rect 956 532 1344 964
+rect -442 108 -97 147
+rect 2 0 390 432
+rect 638 0 1026 432
+use sky130_fd_pr__res_xhigh_po_0p35_T3GZ9C  sky130_fd_pr__res_xhigh_po_0p35_T3GZ9C_0
+timestamp 1669522153
+transform 1 0 673 0 1 482
+box -671 -482 671 482
+<< labels >>
+rlabel locali s -419 166 -128 693 4 gnd
+port 1 nsew
+<< end >>

@@ -1,0 +1,54 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1669522153
+<< pwell >>
+rect -284 324 -94 774
+<< psubdiff >>
+rect -258 706 -120 748
+rect -258 672 -205 706
+rect -171 672 -120 706
+rect -258 638 -120 672
+rect -258 604 -205 638
+rect -171 604 -120 638
+rect -258 570 -120 604
+rect -258 536 -205 570
+rect -171 536 -120 570
+rect -258 502 -120 536
+rect -258 468 -205 502
+rect -171 468 -120 502
+rect -258 434 -120 468
+rect -258 400 -205 434
+rect -171 400 -120 434
+rect -258 350 -120 400
+<< psubdiffcont >>
+rect -205 672 -171 706
+rect -205 604 -171 638
+rect -205 536 -171 570
+rect -205 468 -171 502
+rect -205 400 -171 434
+<< locali >>
+rect -236 706 -140 732
+rect -236 672 -205 706
+rect -171 672 -140 706
+rect -236 638 -140 672
+rect -236 604 -205 638
+rect -171 604 -140 638
+rect -236 570 -140 604
+rect -236 536 -205 570
+rect -171 536 -140 570
+rect -236 502 -140 536
+rect -236 468 -205 502
+rect -171 468 -140 502
+rect -236 434 -140 468
+rect -236 400 -205 434
+rect -171 400 -140 434
+rect -236 376 -140 400
+use sky130_fd_pr__res_high_po_0p35_BLB882  sky130_fd_pr__res_high_po_0p35_BLB882_0
+timestamp 1669522153
+transform 1 0 37 0 1 627
+box -35 -627 35 627
+<< labels >>
+rlabel locali s -196 458 -196 458 4 gnd
+port 1 nsew
+<< end >>

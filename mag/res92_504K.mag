@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1669522153
+<< pwell >>
+rect -374 1328 -122 2702
+<< psubdiff >>
+rect -348 2644 -148 2676
+rect -348 1386 -333 2644
+rect -163 1386 -148 2644
+rect -348 1354 -148 1386
+<< psubdiffcont >>
+rect -333 1386 -163 2644
+<< locali >>
+rect -348 2644 -148 2668
+rect -348 1386 -333 2644
+rect -163 1386 -148 2644
+rect -348 1362 -148 1386
+use sky130_fd_pr__res_xhigh_po_0p35_VAH2WP  sky130_fd_pr__res_xhigh_po_0p35_VAH2WP_0
+timestamp 1669522153
+transform 1 0 37 0 1 2032
+box -35 -2032 35 2032
+<< labels >>
+rlabel locali s -264 1990 -264 1990 4 gnd
+port 1 nsew
+<< end >>
